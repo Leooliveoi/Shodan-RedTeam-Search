@@ -88,7 +88,7 @@ def fetch_discovery(product, ver_str=None):
     return [], None
 
 def main():
-    parser = argparse.ArgumentParser(description="OiSecurity V15 - Pro Detailed Intel")
+    parser = argparse.ArgumentParser(description="OiSecuritu - Shodan Red Team Search - v0.1")
     parser.add_argument("-p", "--product", help="Product ID")
     parser.add_argument("-v", "--version", help="Version")
     parser.add_argument("-c", "--cve", help="Direct CVE search (Full Details)")
